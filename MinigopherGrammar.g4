@@ -97,5 +97,4 @@ Identifier : Letter (Letter | Digit)*;
 fragment Letter : [a-zA-Z];
 fragment Digit : [0-9];
 
-// Skip Whitespace
 WS : [ \t\r\n]+ -> skip;
