@@ -1,0 +1,37 @@
+var x int = 5;
+var y int = 37;
+var isActive bool;
+func main() {
+    test := x + y;
+    index := -1;
+    isActive = true;
+    a := 6;
+    scan(a);
+    print(a);
+    var g float = ((123 * (2 + 678)) - 11**(2+2));
+    print(g);
+    if a - 2 == 0 {
+        print(1, 2, 3, 5, 8);
+    } else {
+        print(13, 21, 34, 55, 89);
+    }
+    var NONE bool;
+    if (a % 2 == 0) print(12);
+    switch a {
+        case 1:
+            print(333);
+        case 2:
+            print(666);
+        default:
+            print(777);
+    }
+    for (i := 1; i < 42; i = i + 1) {
+        print(i**2);
+    }
+    i = 5;
+    e := 5 < 2;
+    while i > 0 {
+        print(i);
+        i = i - 1;
+    }
+}
