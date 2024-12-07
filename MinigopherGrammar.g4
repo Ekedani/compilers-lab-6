@@ -16,7 +16,7 @@ typeSpec : 'int'
          | 'float'
          | 'bool';
 
-mainSection : 'func' 'main' '(' ')' '{' statement* (statement | declaration)* '}';
+mainSection : 'func' 'main' '(' ')' '{' (statement | declaration)* '}';
 
 statement : assignmentStmt
           | inputStmt

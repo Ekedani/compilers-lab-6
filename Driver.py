@@ -14,8 +14,8 @@ def main(argv):
     if parser.getNumberOfSyntaxErrors() > 0:
         print("Syntax errors were found")
     else:
-        visitor = VisitorInterpreter()
-        visitor.visit(tree)
+        interpreter = VisitorInterpreter()
+        interpreter.visit(tree)
 
 
 if __name__ == '__main__':

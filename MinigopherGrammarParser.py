@@ -10,7 +10,7 @@ else:
 
 def serializedATN():
     return [
-        4,1,43,337,2,0,7,0,2,1,7,1,2,2,7,2,2,3,7,3,2,4,7,4,2,5,7,5,2,6,7,
+        4,1,43,331,2,0,7,0,2,1,7,1,2,2,7,2,2,3,7,3,2,4,7,4,2,5,7,5,2,6,7,
         6,2,7,7,7,2,8,7,8,2,9,7,9,2,10,7,10,2,11,7,11,2,12,7,12,2,13,7,13,
         2,14,7,14,2,15,7,15,2,16,7,16,2,17,7,17,2,18,7,18,2,19,7,19,2,20,
         7,20,2,21,7,21,2,22,7,22,2,23,7,23,2,24,7,24,2,25,7,25,2,26,7,26,
@@ -18,113 +18,110 @@ def serializedATN():
         7,33,2,34,7,34,2,35,7,35,2,36,7,36,2,37,7,37,1,0,5,0,78,8,0,10,0,
         12,0,81,9,0,1,0,1,0,1,0,1,1,1,1,1,1,3,1,89,8,1,1,2,1,2,1,2,1,2,1,
         2,3,2,96,8,2,1,2,1,2,1,3,1,3,1,3,1,3,1,3,1,4,1,4,1,4,1,4,1,4,1,4,
-        1,4,1,5,1,5,1,6,1,6,1,6,1,6,1,6,1,6,5,6,120,8,6,10,6,12,6,123,9,
-        6,1,6,1,6,5,6,127,8,6,10,6,12,6,130,9,6,1,6,1,6,1,7,1,7,1,7,1,7,
-        1,7,1,7,1,7,3,7,141,8,7,1,8,1,8,1,8,5,8,146,8,8,10,8,12,8,149,9,
-        8,1,8,1,8,1,9,1,9,3,9,155,8,9,1,10,1,10,1,10,1,10,1,10,1,11,1,11,
-        1,11,5,11,165,8,11,10,11,12,11,168,9,11,1,12,1,12,1,12,5,12,173,
-        8,12,10,12,12,12,176,9,12,1,13,1,13,1,13,1,13,1,13,1,13,1,14,1,14,
-        1,14,1,14,1,14,1,14,1,15,1,15,1,15,1,15,1,15,1,15,1,15,1,15,1,15,
-        1,15,1,15,1,15,1,15,1,15,1,16,1,16,1,16,1,16,1,17,1,17,1,17,1,17,
-        1,17,3,17,213,8,17,1,18,1,18,1,18,1,18,5,18,219,8,18,10,18,12,18,
-        222,9,18,1,18,3,18,225,8,18,1,18,1,18,1,19,1,19,1,19,1,19,1,19,1,
-        20,1,20,1,20,1,20,1,21,1,21,1,22,1,22,1,22,1,22,5,22,244,8,22,10,
-        22,12,22,247,9,22,1,23,1,23,1,23,1,23,3,23,253,8,23,1,23,1,23,1,
-        23,1,23,1,23,3,23,260,8,23,1,24,3,24,263,8,24,1,24,1,24,1,24,1,24,
-        5,24,269,8,24,10,24,12,24,272,9,24,1,25,1,25,1,25,1,25,5,25,278,
-        8,25,10,25,12,25,281,9,25,1,26,1,26,1,26,1,26,5,26,287,8,26,10,26,
-        12,26,290,9,26,1,27,1,27,1,27,1,27,1,27,1,27,3,27,298,8,27,1,28,
-        1,28,1,29,1,29,1,30,1,30,1,31,1,31,1,32,1,32,3,32,310,8,32,1,33,
-        1,33,3,33,314,8,33,1,34,1,34,1,35,3,35,319,8,35,1,35,1,35,1,36,3,
-        36,324,8,36,1,36,1,36,1,36,1,36,1,36,1,36,1,36,3,36,333,8,36,1,37,
-        1,37,1,37,0,0,38,0,2,4,6,8,10,12,14,16,18,20,22,24,26,28,30,32,34,
-        36,38,40,42,44,46,48,50,52,54,56,58,60,62,64,66,68,70,72,74,0,5,
-        1,0,6,8,1,0,26,27,1,0,28,30,1,0,32,37,1,0,38,39,335,0,79,1,0,0,0,
-        2,88,1,0,0,0,4,90,1,0,0,0,6,99,1,0,0,0,8,104,1,0,0,0,10,111,1,0,
-        0,0,12,113,1,0,0,0,14,140,1,0,0,0,16,142,1,0,0,0,18,154,1,0,0,0,
-        20,156,1,0,0,0,22,161,1,0,0,0,24,169,1,0,0,0,26,177,1,0,0,0,28,183,
-        1,0,0,0,30,189,1,0,0,0,32,203,1,0,0,0,34,207,1,0,0,0,36,214,1,0,
-        0,0,38,228,1,0,0,0,40,233,1,0,0,0,42,237,1,0,0,0,44,239,1,0,0,0,
-        46,259,1,0,0,0,48,262,1,0,0,0,50,273,1,0,0,0,52,282,1,0,0,0,54,297,
-        1,0,0,0,56,299,1,0,0,0,58,301,1,0,0,0,60,303,1,0,0,0,62,305,1,0,
-        0,0,64,309,1,0,0,0,66,313,1,0,0,0,68,315,1,0,0,0,70,318,1,0,0,0,
-        72,323,1,0,0,0,74,334,1,0,0,0,76,78,3,2,1,0,77,76,1,0,0,0,78,81,
-        1,0,0,0,79,77,1,0,0,0,79,80,1,0,0,0,80,82,1,0,0,0,81,79,1,0,0,0,
-        82,83,3,12,6,0,83,84,5,0,0,1,84,1,1,0,0,0,85,89,3,4,2,0,86,89,3,
-        6,3,0,87,89,3,8,4,0,88,85,1,0,0,0,88,86,1,0,0,0,88,87,1,0,0,0,89,
-        3,1,0,0,0,90,91,5,1,0,0,91,92,5,42,0,0,92,95,3,10,5,0,93,94,5,2,
-        0,0,94,96,3,42,21,0,95,93,1,0,0,0,95,96,1,0,0,0,96,97,1,0,0,0,97,
-        98,5,3,0,0,98,5,1,0,0,0,99,100,5,42,0,0,100,101,5,4,0,0,101,102,
-        3,42,21,0,102,103,5,3,0,0,103,7,1,0,0,0,104,105,5,5,0,0,105,106,
-        5,42,0,0,106,107,3,10,5,0,107,108,5,2,0,0,108,109,3,42,21,0,109,
-        110,5,3,0,0,110,9,1,0,0,0,111,112,7,0,0,0,112,11,1,0,0,0,113,114,
-        5,9,0,0,114,115,5,10,0,0,115,116,5,11,0,0,116,117,5,12,0,0,117,121,
-        5,13,0,0,118,120,3,14,7,0,119,118,1,0,0,0,120,123,1,0,0,0,121,119,
-        1,0,0,0,121,122,1,0,0,0,122,128,1,0,0,0,123,121,1,0,0,0,124,127,
-        3,14,7,0,125,127,3,2,1,0,126,124,1,0,0,0,126,125,1,0,0,0,127,130,
-        1,0,0,0,128,126,1,0,0,0,128,129,1,0,0,0,129,131,1,0,0,0,130,128,
-        1,0,0,0,131,132,5,14,0,0,132,13,1,0,0,0,133,141,3,20,10,0,134,141,
-        3,26,13,0,135,141,3,28,14,0,136,141,3,30,15,0,137,141,3,32,16,0,
-        138,141,3,34,17,0,139,141,3,36,18,0,140,133,1,0,0,0,140,134,1,0,
-        0,0,140,135,1,0,0,0,140,136,1,0,0,0,140,137,1,0,0,0,140,138,1,0,
-        0,0,140,139,1,0,0,0,141,15,1,0,0,0,142,147,5,13,0,0,143,146,3,14,
-        7,0,144,146,3,2,1,0,145,143,1,0,0,0,145,144,1,0,0,0,146,149,1,0,
-        0,0,147,145,1,0,0,0,147,148,1,0,0,0,148,150,1,0,0,0,149,147,1,0,
-        0,0,150,151,5,14,0,0,151,17,1,0,0,0,152,155,3,14,7,0,153,155,3,16,
-        8,0,154,152,1,0,0,0,154,153,1,0,0,0,155,19,1,0,0,0,156,157,5,42,
-        0,0,157,158,5,2,0,0,158,159,3,42,21,0,159,160,5,3,0,0,160,21,1,0,
-        0,0,161,166,5,42,0,0,162,163,5,15,0,0,163,165,5,42,0,0,164,162,1,
-        0,0,0,165,168,1,0,0,0,166,164,1,0,0,0,166,167,1,0,0,0,167,23,1,0,
-        0,0,168,166,1,0,0,0,169,174,3,42,21,0,170,171,5,15,0,0,171,173,3,
-        42,21,0,172,170,1,0,0,0,173,176,1,0,0,0,174,172,1,0,0,0,174,175,
-        1,0,0,0,175,25,1,0,0,0,176,174,1,0,0,0,177,178,5,16,0,0,178,179,
-        5,11,0,0,179,180,3,22,11,0,180,181,5,12,0,0,181,182,5,3,0,0,182,
-        27,1,0,0,0,183,184,5,17,0,0,184,185,5,11,0,0,185,186,3,24,12,0,186,
-        187,5,12,0,0,187,188,5,3,0,0,188,29,1,0,0,0,189,190,5,18,0,0,190,
-        191,5,11,0,0,191,192,5,42,0,0,192,193,5,4,0,0,193,194,3,48,24,0,
-        194,195,5,3,0,0,195,196,3,42,21,0,196,197,5,3,0,0,197,198,5,42,0,
-        0,198,199,5,2,0,0,199,200,3,48,24,0,200,201,5,12,0,0,201,202,3,18,
-        9,0,202,31,1,0,0,0,203,204,5,19,0,0,204,205,3,42,21,0,205,206,3,
-        18,9,0,206,33,1,0,0,0,207,208,5,20,0,0,208,209,3,42,21,0,209,212,
-        3,18,9,0,210,211,5,21,0,0,211,213,3,18,9,0,212,210,1,0,0,0,212,213,
-        1,0,0,0,213,35,1,0,0,0,214,215,5,22,0,0,215,216,3,42,21,0,216,220,
-        5,13,0,0,217,219,3,38,19,0,218,217,1,0,0,0,219,222,1,0,0,0,220,218,
-        1,0,0,0,220,221,1,0,0,0,221,224,1,0,0,0,222,220,1,0,0,0,223,225,
-        3,40,20,0,224,223,1,0,0,0,224,225,1,0,0,0,225,226,1,0,0,0,226,227,
-        5,14,0,0,227,37,1,0,0,0,228,229,5,23,0,0,229,230,3,64,32,0,230,231,
-        5,24,0,0,231,232,3,18,9,0,232,39,1,0,0,0,233,234,5,25,0,0,234,235,
-        5,24,0,0,235,236,3,18,9,0,236,41,1,0,0,0,237,238,3,44,22,0,238,43,
-        1,0,0,0,239,245,3,46,23,0,240,241,3,62,31,0,241,242,3,46,23,0,242,
-        244,1,0,0,0,243,240,1,0,0,0,244,247,1,0,0,0,245,243,1,0,0,0,245,
-        246,1,0,0,0,246,45,1,0,0,0,247,245,1,0,0,0,248,252,3,48,24,0,249,
-        250,3,62,31,0,250,251,3,48,24,0,251,253,1,0,0,0,252,249,1,0,0,0,
-        252,253,1,0,0,0,253,260,1,0,0,0,254,260,3,68,34,0,255,256,5,11,0,
-        0,256,257,3,44,22,0,257,258,5,12,0,0,258,260,1,0,0,0,259,248,1,0,
-        0,0,259,254,1,0,0,0,259,255,1,0,0,0,260,47,1,0,0,0,261,263,3,74,
-        37,0,262,261,1,0,0,0,262,263,1,0,0,0,263,264,1,0,0,0,264,270,3,50,
-        25,0,265,266,3,56,28,0,266,267,3,50,25,0,267,269,1,0,0,0,268,265,
-        1,0,0,0,269,272,1,0,0,0,270,268,1,0,0,0,270,271,1,0,0,0,271,49,1,
-        0,0,0,272,270,1,0,0,0,273,279,3,52,26,0,274,275,3,58,29,0,275,276,
-        3,52,26,0,276,278,1,0,0,0,277,274,1,0,0,0,278,281,1,0,0,0,279,277,
-        1,0,0,0,279,280,1,0,0,0,280,51,1,0,0,0,281,279,1,0,0,0,282,288,3,
-        54,27,0,283,284,3,60,30,0,284,285,3,54,27,0,285,287,1,0,0,0,286,
-        283,1,0,0,0,287,290,1,0,0,0,288,286,1,0,0,0,288,289,1,0,0,0,289,
-        53,1,0,0,0,290,288,1,0,0,0,291,298,5,42,0,0,292,298,3,66,33,0,293,
-        294,5,11,0,0,294,295,3,48,24,0,295,296,5,12,0,0,296,298,1,0,0,0,
-        297,291,1,0,0,0,297,292,1,0,0,0,297,293,1,0,0,0,298,55,1,0,0,0,299,
-        300,7,1,0,0,300,57,1,0,0,0,301,302,7,2,0,0,302,59,1,0,0,0,303,304,
-        5,31,0,0,304,61,1,0,0,0,305,306,7,3,0,0,306,63,1,0,0,0,307,310,3,
-        66,33,0,308,310,3,68,34,0,309,307,1,0,0,0,309,308,1,0,0,0,310,65,
-        1,0,0,0,311,314,3,70,35,0,312,314,3,72,36,0,313,311,1,0,0,0,313,
-        312,1,0,0,0,314,67,1,0,0,0,315,316,7,4,0,0,316,69,1,0,0,0,317,319,
-        3,74,37,0,318,317,1,0,0,0,318,319,1,0,0,0,319,320,1,0,0,0,320,321,
-        5,41,0,0,321,71,1,0,0,0,322,324,3,74,37,0,323,322,1,0,0,0,323,324,
-        1,0,0,0,324,332,1,0,0,0,325,326,5,40,0,0,326,333,5,41,0,0,327,328,
-        5,41,0,0,328,333,5,40,0,0,329,330,5,41,0,0,330,331,5,40,0,0,331,
-        333,5,41,0,0,332,325,1,0,0,0,332,327,1,0,0,0,332,329,1,0,0,0,333,
-        73,1,0,0,0,334,335,7,1,0,0,335,75,1,0,0,0,28,79,88,95,121,126,128,
-        140,145,147,154,166,174,212,220,224,245,252,259,262,270,279,288,
-        297,309,313,318,323,332
+        1,4,1,5,1,5,1,6,1,6,1,6,1,6,1,6,1,6,1,6,5,6,121,8,6,10,6,12,6,124,
+        9,6,1,6,1,6,1,7,1,7,1,7,1,7,1,7,1,7,1,7,3,7,135,8,7,1,8,1,8,1,8,
+        5,8,140,8,8,10,8,12,8,143,9,8,1,8,1,8,1,9,1,9,3,9,149,8,9,1,10,1,
+        10,1,10,1,10,1,10,1,11,1,11,1,11,5,11,159,8,11,10,11,12,11,162,9,
+        11,1,12,1,12,1,12,5,12,167,8,12,10,12,12,12,170,9,12,1,13,1,13,1,
+        13,1,13,1,13,1,13,1,14,1,14,1,14,1,14,1,14,1,14,1,15,1,15,1,15,1,
+        15,1,15,1,15,1,15,1,15,1,15,1,15,1,15,1,15,1,15,1,15,1,16,1,16,1,
+        16,1,16,1,17,1,17,1,17,1,17,1,17,3,17,207,8,17,1,18,1,18,1,18,1,
+        18,5,18,213,8,18,10,18,12,18,216,9,18,1,18,3,18,219,8,18,1,18,1,
+        18,1,19,1,19,1,19,1,19,1,19,1,20,1,20,1,20,1,20,1,21,1,21,1,22,1,
+        22,1,22,1,22,5,22,238,8,22,10,22,12,22,241,9,22,1,23,1,23,1,23,1,
+        23,3,23,247,8,23,1,23,1,23,1,23,1,23,1,23,3,23,254,8,23,1,24,3,24,
+        257,8,24,1,24,1,24,1,24,1,24,5,24,263,8,24,10,24,12,24,266,9,24,
+        1,25,1,25,1,25,1,25,5,25,272,8,25,10,25,12,25,275,9,25,1,26,1,26,
+        1,26,1,26,5,26,281,8,26,10,26,12,26,284,9,26,1,27,1,27,1,27,1,27,
+        1,27,1,27,3,27,292,8,27,1,28,1,28,1,29,1,29,1,30,1,30,1,31,1,31,
+        1,32,1,32,3,32,304,8,32,1,33,1,33,3,33,308,8,33,1,34,1,34,1,35,3,
+        35,313,8,35,1,35,1,35,1,36,3,36,318,8,36,1,36,1,36,1,36,1,36,1,36,
+        1,36,1,36,3,36,327,8,36,1,37,1,37,1,37,0,0,38,0,2,4,6,8,10,12,14,
+        16,18,20,22,24,26,28,30,32,34,36,38,40,42,44,46,48,50,52,54,56,58,
+        60,62,64,66,68,70,72,74,0,5,1,0,6,8,1,0,26,27,1,0,28,30,1,0,32,37,
+        1,0,38,39,328,0,79,1,0,0,0,2,88,1,0,0,0,4,90,1,0,0,0,6,99,1,0,0,
+        0,8,104,1,0,0,0,10,111,1,0,0,0,12,113,1,0,0,0,14,134,1,0,0,0,16,
+        136,1,0,0,0,18,148,1,0,0,0,20,150,1,0,0,0,22,155,1,0,0,0,24,163,
+        1,0,0,0,26,171,1,0,0,0,28,177,1,0,0,0,30,183,1,0,0,0,32,197,1,0,
+        0,0,34,201,1,0,0,0,36,208,1,0,0,0,38,222,1,0,0,0,40,227,1,0,0,0,
+        42,231,1,0,0,0,44,233,1,0,0,0,46,253,1,0,0,0,48,256,1,0,0,0,50,267,
+        1,0,0,0,52,276,1,0,0,0,54,291,1,0,0,0,56,293,1,0,0,0,58,295,1,0,
+        0,0,60,297,1,0,0,0,62,299,1,0,0,0,64,303,1,0,0,0,66,307,1,0,0,0,
+        68,309,1,0,0,0,70,312,1,0,0,0,72,317,1,0,0,0,74,328,1,0,0,0,76,78,
+        3,2,1,0,77,76,1,0,0,0,78,81,1,0,0,0,79,77,1,0,0,0,79,80,1,0,0,0,
+        80,82,1,0,0,0,81,79,1,0,0,0,82,83,3,12,6,0,83,84,5,0,0,1,84,1,1,
+        0,0,0,85,89,3,4,2,0,86,89,3,6,3,0,87,89,3,8,4,0,88,85,1,0,0,0,88,
+        86,1,0,0,0,88,87,1,0,0,0,89,3,1,0,0,0,90,91,5,1,0,0,91,92,5,42,0,
+        0,92,95,3,10,5,0,93,94,5,2,0,0,94,96,3,42,21,0,95,93,1,0,0,0,95,
+        96,1,0,0,0,96,97,1,0,0,0,97,98,5,3,0,0,98,5,1,0,0,0,99,100,5,42,
+        0,0,100,101,5,4,0,0,101,102,3,42,21,0,102,103,5,3,0,0,103,7,1,0,
+        0,0,104,105,5,5,0,0,105,106,5,42,0,0,106,107,3,10,5,0,107,108,5,
+        2,0,0,108,109,3,42,21,0,109,110,5,3,0,0,110,9,1,0,0,0,111,112,7,
+        0,0,0,112,11,1,0,0,0,113,114,5,9,0,0,114,115,5,10,0,0,115,116,5,
+        11,0,0,116,117,5,12,0,0,117,122,5,13,0,0,118,121,3,14,7,0,119,121,
+        3,2,1,0,120,118,1,0,0,0,120,119,1,0,0,0,121,124,1,0,0,0,122,120,
+        1,0,0,0,122,123,1,0,0,0,123,125,1,0,0,0,124,122,1,0,0,0,125,126,
+        5,14,0,0,126,13,1,0,0,0,127,135,3,20,10,0,128,135,3,26,13,0,129,
+        135,3,28,14,0,130,135,3,30,15,0,131,135,3,32,16,0,132,135,3,34,17,
+        0,133,135,3,36,18,0,134,127,1,0,0,0,134,128,1,0,0,0,134,129,1,0,
+        0,0,134,130,1,0,0,0,134,131,1,0,0,0,134,132,1,0,0,0,134,133,1,0,
+        0,0,135,15,1,0,0,0,136,141,5,13,0,0,137,140,3,14,7,0,138,140,3,2,
+        1,0,139,137,1,0,0,0,139,138,1,0,0,0,140,143,1,0,0,0,141,139,1,0,
+        0,0,141,142,1,0,0,0,142,144,1,0,0,0,143,141,1,0,0,0,144,145,5,14,
+        0,0,145,17,1,0,0,0,146,149,3,14,7,0,147,149,3,16,8,0,148,146,1,0,
+        0,0,148,147,1,0,0,0,149,19,1,0,0,0,150,151,5,42,0,0,151,152,5,2,
+        0,0,152,153,3,42,21,0,153,154,5,3,0,0,154,21,1,0,0,0,155,160,5,42,
+        0,0,156,157,5,15,0,0,157,159,5,42,0,0,158,156,1,0,0,0,159,162,1,
+        0,0,0,160,158,1,0,0,0,160,161,1,0,0,0,161,23,1,0,0,0,162,160,1,0,
+        0,0,163,168,3,42,21,0,164,165,5,15,0,0,165,167,3,42,21,0,166,164,
+        1,0,0,0,167,170,1,0,0,0,168,166,1,0,0,0,168,169,1,0,0,0,169,25,1,
+        0,0,0,170,168,1,0,0,0,171,172,5,16,0,0,172,173,5,11,0,0,173,174,
+        3,22,11,0,174,175,5,12,0,0,175,176,5,3,0,0,176,27,1,0,0,0,177,178,
+        5,17,0,0,178,179,5,11,0,0,179,180,3,24,12,0,180,181,5,12,0,0,181,
+        182,5,3,0,0,182,29,1,0,0,0,183,184,5,18,0,0,184,185,5,11,0,0,185,
+        186,5,42,0,0,186,187,5,4,0,0,187,188,3,48,24,0,188,189,5,3,0,0,189,
+        190,3,42,21,0,190,191,5,3,0,0,191,192,5,42,0,0,192,193,5,2,0,0,193,
+        194,3,48,24,0,194,195,5,12,0,0,195,196,3,18,9,0,196,31,1,0,0,0,197,
+        198,5,19,0,0,198,199,3,42,21,0,199,200,3,18,9,0,200,33,1,0,0,0,201,
+        202,5,20,0,0,202,203,3,42,21,0,203,206,3,18,9,0,204,205,5,21,0,0,
+        205,207,3,18,9,0,206,204,1,0,0,0,206,207,1,0,0,0,207,35,1,0,0,0,
+        208,209,5,22,0,0,209,210,3,42,21,0,210,214,5,13,0,0,211,213,3,38,
+        19,0,212,211,1,0,0,0,213,216,1,0,0,0,214,212,1,0,0,0,214,215,1,0,
+        0,0,215,218,1,0,0,0,216,214,1,0,0,0,217,219,3,40,20,0,218,217,1,
+        0,0,0,218,219,1,0,0,0,219,220,1,0,0,0,220,221,5,14,0,0,221,37,1,
+        0,0,0,222,223,5,23,0,0,223,224,3,64,32,0,224,225,5,24,0,0,225,226,
+        3,18,9,0,226,39,1,0,0,0,227,228,5,25,0,0,228,229,5,24,0,0,229,230,
+        3,18,9,0,230,41,1,0,0,0,231,232,3,44,22,0,232,43,1,0,0,0,233,239,
+        3,46,23,0,234,235,3,62,31,0,235,236,3,46,23,0,236,238,1,0,0,0,237,
+        234,1,0,0,0,238,241,1,0,0,0,239,237,1,0,0,0,239,240,1,0,0,0,240,
+        45,1,0,0,0,241,239,1,0,0,0,242,246,3,48,24,0,243,244,3,62,31,0,244,
+        245,3,48,24,0,245,247,1,0,0,0,246,243,1,0,0,0,246,247,1,0,0,0,247,
+        254,1,0,0,0,248,254,3,68,34,0,249,250,5,11,0,0,250,251,3,44,22,0,
+        251,252,5,12,0,0,252,254,1,0,0,0,253,242,1,0,0,0,253,248,1,0,0,0,
+        253,249,1,0,0,0,254,47,1,0,0,0,255,257,3,74,37,0,256,255,1,0,0,0,
+        256,257,1,0,0,0,257,258,1,0,0,0,258,264,3,50,25,0,259,260,3,56,28,
+        0,260,261,3,50,25,0,261,263,1,0,0,0,262,259,1,0,0,0,263,266,1,0,
+        0,0,264,262,1,0,0,0,264,265,1,0,0,0,265,49,1,0,0,0,266,264,1,0,0,
+        0,267,273,3,52,26,0,268,269,3,58,29,0,269,270,3,52,26,0,270,272,
+        1,0,0,0,271,268,1,0,0,0,272,275,1,0,0,0,273,271,1,0,0,0,273,274,
+        1,0,0,0,274,51,1,0,0,0,275,273,1,0,0,0,276,282,3,54,27,0,277,278,
+        3,60,30,0,278,279,3,54,27,0,279,281,1,0,0,0,280,277,1,0,0,0,281,
+        284,1,0,0,0,282,280,1,0,0,0,282,283,1,0,0,0,283,53,1,0,0,0,284,282,
+        1,0,0,0,285,292,5,42,0,0,286,292,3,66,33,0,287,288,5,11,0,0,288,
+        289,3,48,24,0,289,290,5,12,0,0,290,292,1,0,0,0,291,285,1,0,0,0,291,
+        286,1,0,0,0,291,287,1,0,0,0,292,55,1,0,0,0,293,294,7,1,0,0,294,57,
+        1,0,0,0,295,296,7,2,0,0,296,59,1,0,0,0,297,298,5,31,0,0,298,61,1,
+        0,0,0,299,300,7,3,0,0,300,63,1,0,0,0,301,304,3,66,33,0,302,304,3,
+        68,34,0,303,301,1,0,0,0,303,302,1,0,0,0,304,65,1,0,0,0,305,308,3,
+        70,35,0,306,308,3,72,36,0,307,305,1,0,0,0,307,306,1,0,0,0,308,67,
+        1,0,0,0,309,310,7,4,0,0,310,69,1,0,0,0,311,313,3,74,37,0,312,311,
+        1,0,0,0,312,313,1,0,0,0,313,314,1,0,0,0,314,315,5,41,0,0,315,71,
+        1,0,0,0,316,318,3,74,37,0,317,316,1,0,0,0,317,318,1,0,0,0,318,326,
+        1,0,0,0,319,320,5,40,0,0,320,327,5,41,0,0,321,322,5,41,0,0,322,327,
+        5,40,0,0,323,324,5,41,0,0,324,325,5,40,0,0,325,327,5,41,0,0,326,
+        319,1,0,0,0,326,321,1,0,0,0,326,323,1,0,0,0,327,73,1,0,0,0,328,329,
+        7,1,0,0,329,75,1,0,0,0,27,79,88,95,120,122,134,139,141,148,160,168,
+        206,214,218,239,246,253,256,264,273,282,291,303,307,312,317,326
     ]
 
 class MinigopherGrammarParser ( Parser ):
@@ -708,40 +705,29 @@ class MinigopherGrammarParser ( Parser ):
             self.match(MinigopherGrammarParser.T__11)
             self.state = 117
             self.match(MinigopherGrammarParser.T__12)
-            self.state = 121
-            self._errHandler.sync(self)
-            _alt = self._interp.adaptivePredict(self._input,3,self._ctx)
-            while _alt!=2 and _alt!=ATN.INVALID_ALT_NUMBER:
-                if _alt==1:
-                    self.state = 118
-                    self.statement() 
-                self.state = 123
-                self._errHandler.sync(self)
-                _alt = self._interp.adaptivePredict(self._input,3,self._ctx)
-
-            self.state = 128
+            self.state = 122
             self._errHandler.sync(self)
             _la = self._input.LA(1)
             while (((_la) & ~0x3f) == 0 and ((1 << _la) & 4398052737058) != 0):
-                self.state = 126
+                self.state = 120
                 self._errHandler.sync(self)
-                la_ = self._interp.adaptivePredict(self._input,4,self._ctx)
+                la_ = self._interp.adaptivePredict(self._input,3,self._ctx)
                 if la_ == 1:
-                    self.state = 124
+                    self.state = 118
                     self.statement()
                     pass
 
                 elif la_ == 2:
-                    self.state = 125
+                    self.state = 119
                     self.declaration()
                     pass
 
 
-                self.state = 130
+                self.state = 124
                 self._errHandler.sync(self)
                 _la = self._input.LA(1)
 
-            self.state = 131
+            self.state = 125
             self.match(MinigopherGrammarParser.T__13)
         except RecognitionException as re:
             localctx.exception = re
@@ -812,42 +798,42 @@ class MinigopherGrammarParser ( Parser ):
         localctx = MinigopherGrammarParser.StatementContext(self, self._ctx, self.state)
         self.enterRule(localctx, 14, self.RULE_statement)
         try:
-            self.state = 140
+            self.state = 134
             self._errHandler.sync(self)
             token = self._input.LA(1)
             if token in [42]:
                 self.enterOuterAlt(localctx, 1)
-                self.state = 133
+                self.state = 127
                 self.assignmentStmt()
                 pass
             elif token in [16]:
                 self.enterOuterAlt(localctx, 2)
-                self.state = 134
+                self.state = 128
                 self.inputStmt()
                 pass
             elif token in [17]:
                 self.enterOuterAlt(localctx, 3)
-                self.state = 135
+                self.state = 129
                 self.outputStmt()
                 pass
             elif token in [18]:
                 self.enterOuterAlt(localctx, 4)
-                self.state = 136
+                self.state = 130
                 self.forStmt()
                 pass
             elif token in [19]:
                 self.enterOuterAlt(localctx, 5)
-                self.state = 137
+                self.state = 131
                 self.whileStmt()
                 pass
             elif token in [20]:
                 self.enterOuterAlt(localctx, 6)
-                self.state = 138
+                self.state = 132
                 self.ifStmt()
                 pass
             elif token in [22]:
                 self.enterOuterAlt(localctx, 7)
-                self.state = 139
+                self.state = 133
                 self.switchStmt()
                 pass
             else:
@@ -910,31 +896,31 @@ class MinigopherGrammarParser ( Parser ):
         self._la = 0 # Token type
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 142
+            self.state = 136
             self.match(MinigopherGrammarParser.T__12)
-            self.state = 147
+            self.state = 141
             self._errHandler.sync(self)
             _la = self._input.LA(1)
             while (((_la) & ~0x3f) == 0 and ((1 << _la) & 4398052737058) != 0):
-                self.state = 145
+                self.state = 139
                 self._errHandler.sync(self)
-                la_ = self._interp.adaptivePredict(self._input,7,self._ctx)
+                la_ = self._interp.adaptivePredict(self._input,6,self._ctx)
                 if la_ == 1:
-                    self.state = 143
+                    self.state = 137
                     self.statement()
                     pass
 
                 elif la_ == 2:
-                    self.state = 144
+                    self.state = 138
                     self.declaration()
                     pass
 
 
-                self.state = 149
+                self.state = 143
                 self._errHandler.sync(self)
                 _la = self._input.LA(1)
 
-            self.state = 150
+            self.state = 144
             self.match(MinigopherGrammarParser.T__13)
         except RecognitionException as re:
             localctx.exception = re
@@ -985,17 +971,17 @@ class MinigopherGrammarParser ( Parser ):
         localctx = MinigopherGrammarParser.DoBlockContext(self, self._ctx, self.state)
         self.enterRule(localctx, 18, self.RULE_doBlock)
         try:
-            self.state = 154
+            self.state = 148
             self._errHandler.sync(self)
             token = self._input.LA(1)
             if token in [16, 17, 18, 19, 20, 22, 42]:
                 self.enterOuterAlt(localctx, 1)
-                self.state = 152
+                self.state = 146
                 self.statement()
                 pass
             elif token in [13]:
                 self.enterOuterAlt(localctx, 2)
-                self.state = 153
+                self.state = 147
                 self.block()
                 pass
             else:
@@ -1050,13 +1036,13 @@ class MinigopherGrammarParser ( Parser ):
         self.enterRule(localctx, 20, self.RULE_assignmentStmt)
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 156
+            self.state = 150
             self.match(MinigopherGrammarParser.Identifier)
-            self.state = 157
+            self.state = 151
             self.match(MinigopherGrammarParser.T__1)
-            self.state = 158
+            self.state = 152
             self.expression()
-            self.state = 159
+            self.state = 153
             self.match(MinigopherGrammarParser.T__2)
         except RecognitionException as re:
             localctx.exception = re
@@ -1107,17 +1093,17 @@ class MinigopherGrammarParser ( Parser ):
         self._la = 0 # Token type
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 161
+            self.state = 155
             self.match(MinigopherGrammarParser.Identifier)
-            self.state = 166
+            self.state = 160
             self._errHandler.sync(self)
             _la = self._input.LA(1)
             while _la==15:
-                self.state = 162
+                self.state = 156
                 self.match(MinigopherGrammarParser.T__14)
-                self.state = 163
+                self.state = 157
                 self.match(MinigopherGrammarParser.Identifier)
-                self.state = 168
+                self.state = 162
                 self._errHandler.sync(self)
                 _la = self._input.LA(1)
 
@@ -1171,17 +1157,17 @@ class MinigopherGrammarParser ( Parser ):
         self._la = 0 # Token type
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 169
+            self.state = 163
             self.expression()
-            self.state = 174
+            self.state = 168
             self._errHandler.sync(self)
             _la = self._input.LA(1)
             while _la==15:
-                self.state = 170
+                self.state = 164
                 self.match(MinigopherGrammarParser.T__14)
-                self.state = 171
+                self.state = 165
                 self.expression()
-                self.state = 176
+                self.state = 170
                 self._errHandler.sync(self)
                 _la = self._input.LA(1)
 
@@ -1231,15 +1217,15 @@ class MinigopherGrammarParser ( Parser ):
         self.enterRule(localctx, 26, self.RULE_inputStmt)
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 177
+            self.state = 171
             self.match(MinigopherGrammarParser.T__15)
-            self.state = 178
+            self.state = 172
             self.match(MinigopherGrammarParser.T__10)
-            self.state = 179
+            self.state = 173
             self.identifierList()
-            self.state = 180
+            self.state = 174
             self.match(MinigopherGrammarParser.T__11)
-            self.state = 181
+            self.state = 175
             self.match(MinigopherGrammarParser.T__2)
         except RecognitionException as re:
             localctx.exception = re
@@ -1287,15 +1273,15 @@ class MinigopherGrammarParser ( Parser ):
         self.enterRule(localctx, 28, self.RULE_outputStmt)
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 183
+            self.state = 177
             self.match(MinigopherGrammarParser.T__16)
-            self.state = 184
+            self.state = 178
             self.match(MinigopherGrammarParser.T__10)
-            self.state = 185
+            self.state = 179
             self.expressionList()
-            self.state = 186
+            self.state = 180
             self.match(MinigopherGrammarParser.T__11)
-            self.state = 187
+            self.state = 181
             self.match(MinigopherGrammarParser.T__2)
         except RecognitionException as re:
             localctx.exception = re
@@ -1360,31 +1346,31 @@ class MinigopherGrammarParser ( Parser ):
         self.enterRule(localctx, 30, self.RULE_forStmt)
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 189
+            self.state = 183
             self.match(MinigopherGrammarParser.T__17)
-            self.state = 190
+            self.state = 184
             self.match(MinigopherGrammarParser.T__10)
+            self.state = 185
+            self.match(MinigopherGrammarParser.Identifier)
+            self.state = 186
+            self.match(MinigopherGrammarParser.T__3)
+            self.state = 187
+            self.arithmExpression()
+            self.state = 188
+            self.match(MinigopherGrammarParser.T__2)
+            self.state = 189
+            self.expression()
+            self.state = 190
+            self.match(MinigopherGrammarParser.T__2)
             self.state = 191
             self.match(MinigopherGrammarParser.Identifier)
             self.state = 192
-            self.match(MinigopherGrammarParser.T__3)
+            self.match(MinigopherGrammarParser.T__1)
             self.state = 193
             self.arithmExpression()
             self.state = 194
-            self.match(MinigopherGrammarParser.T__2)
-            self.state = 195
-            self.expression()
-            self.state = 196
-            self.match(MinigopherGrammarParser.T__2)
-            self.state = 197
-            self.match(MinigopherGrammarParser.Identifier)
-            self.state = 198
-            self.match(MinigopherGrammarParser.T__1)
-            self.state = 199
-            self.arithmExpression()
-            self.state = 200
             self.match(MinigopherGrammarParser.T__11)
-            self.state = 201
+            self.state = 195
             self.doBlock()
         except RecognitionException as re:
             localctx.exception = re
@@ -1436,11 +1422,11 @@ class MinigopherGrammarParser ( Parser ):
         self.enterRule(localctx, 32, self.RULE_whileStmt)
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 203
+            self.state = 197
             self.match(MinigopherGrammarParser.T__18)
-            self.state = 204
+            self.state = 198
             self.expression()
-            self.state = 205
+            self.state = 199
             self.doBlock()
         except RecognitionException as re:
             localctx.exception = re
@@ -1495,19 +1481,19 @@ class MinigopherGrammarParser ( Parser ):
         self.enterRule(localctx, 34, self.RULE_ifStmt)
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 207
+            self.state = 201
             self.match(MinigopherGrammarParser.T__19)
-            self.state = 208
+            self.state = 202
             self.expression()
-            self.state = 209
+            self.state = 203
             self.doBlock()
-            self.state = 212
+            self.state = 206
             self._errHandler.sync(self)
-            la_ = self._interp.adaptivePredict(self._input,12,self._ctx)
+            la_ = self._interp.adaptivePredict(self._input,11,self._ctx)
             if la_ == 1:
-                self.state = 210
+                self.state = 204
                 self.match(MinigopherGrammarParser.T__20)
-                self.state = 211
+                self.state = 205
                 self.doBlock()
 
 
@@ -1569,31 +1555,31 @@ class MinigopherGrammarParser ( Parser ):
         self._la = 0 # Token type
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 214
+            self.state = 208
             self.match(MinigopherGrammarParser.T__21)
-            self.state = 215
+            self.state = 209
             self.expression()
-            self.state = 216
+            self.state = 210
             self.match(MinigopherGrammarParser.T__12)
-            self.state = 220
+            self.state = 214
             self._errHandler.sync(self)
             _la = self._input.LA(1)
             while _la==23:
-                self.state = 217
+                self.state = 211
                 self.caseClause()
-                self.state = 222
+                self.state = 216
                 self._errHandler.sync(self)
                 _la = self._input.LA(1)
 
-            self.state = 224
+            self.state = 218
             self._errHandler.sync(self)
             _la = self._input.LA(1)
             if _la==25:
-                self.state = 223
+                self.state = 217
                 self.defaultClause()
 
 
-            self.state = 226
+            self.state = 220
             self.match(MinigopherGrammarParser.T__13)
         except RecognitionException as re:
             localctx.exception = re
@@ -1645,13 +1631,13 @@ class MinigopherGrammarParser ( Parser ):
         self.enterRule(localctx, 38, self.RULE_caseClause)
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 228
+            self.state = 222
             self.match(MinigopherGrammarParser.T__22)
-            self.state = 229
+            self.state = 223
             self.const()
-            self.state = 230
+            self.state = 224
             self.match(MinigopherGrammarParser.T__23)
-            self.state = 231
+            self.state = 225
             self.doBlock()
         except RecognitionException as re:
             localctx.exception = re
@@ -1699,11 +1685,11 @@ class MinigopherGrammarParser ( Parser ):
         self.enterRule(localctx, 40, self.RULE_defaultClause)
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 233
+            self.state = 227
             self.match(MinigopherGrammarParser.T__24)
-            self.state = 234
+            self.state = 228
             self.match(MinigopherGrammarParser.T__23)
-            self.state = 235
+            self.state = 229
             self.doBlock()
         except RecognitionException as re:
             localctx.exception = re
@@ -1751,7 +1737,7 @@ class MinigopherGrammarParser ( Parser ):
         self.enterRule(localctx, 42, self.RULE_expression)
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 237
+            self.state = 231
             self.boolExpression()
         except RecognitionException as re:
             localctx.exception = re
@@ -1810,17 +1796,17 @@ class MinigopherGrammarParser ( Parser ):
         self._la = 0 # Token type
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 239
+            self.state = 233
             self.boolPrimary()
-            self.state = 245
+            self.state = 239
             self._errHandler.sync(self)
             _la = self._input.LA(1)
             while (((_la) & ~0x3f) == 0 and ((1 << _la) & 270582939648) != 0):
-                self.state = 240
+                self.state = 234
                 self.relOp()
-                self.state = 241
+                self.state = 235
                 self.boolPrimary()
-                self.state = 247
+                self.state = 241
                 self._errHandler.sync(self)
                 _la = self._input.LA(1)
 
@@ -1884,20 +1870,20 @@ class MinigopherGrammarParser ( Parser ):
         localctx = MinigopherGrammarParser.BoolPrimaryContext(self, self._ctx, self.state)
         self.enterRule(localctx, 46, self.RULE_boolPrimary)
         try:
-            self.state = 259
+            self.state = 253
             self._errHandler.sync(self)
-            la_ = self._interp.adaptivePredict(self._input,17,self._ctx)
+            la_ = self._interp.adaptivePredict(self._input,16,self._ctx)
             if la_ == 1:
                 self.enterOuterAlt(localctx, 1)
-                self.state = 248
+                self.state = 242
                 self.arithmExpression()
-                self.state = 252
+                self.state = 246
                 self._errHandler.sync(self)
-                la_ = self._interp.adaptivePredict(self._input,16,self._ctx)
+                la_ = self._interp.adaptivePredict(self._input,15,self._ctx)
                 if la_ == 1:
-                    self.state = 249
+                    self.state = 243
                     self.relOp()
-                    self.state = 250
+                    self.state = 244
                     self.arithmExpression()
 
 
@@ -1905,17 +1891,17 @@ class MinigopherGrammarParser ( Parser ):
 
             elif la_ == 2:
                 self.enterOuterAlt(localctx, 2)
-                self.state = 254
+                self.state = 248
                 self.boolConst()
                 pass
 
             elif la_ == 3:
                 self.enterOuterAlt(localctx, 3)
-                self.state = 255
+                self.state = 249
                 self.match(MinigopherGrammarParser.T__10)
-                self.state = 256
+                self.state = 250
                 self.boolExpression()
-                self.state = 257
+                self.state = 251
                 self.match(MinigopherGrammarParser.T__11)
                 pass
 
@@ -1981,25 +1967,25 @@ class MinigopherGrammarParser ( Parser ):
         self._la = 0 # Token type
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 262
+            self.state = 256
             self._errHandler.sync(self)
-            la_ = self._interp.adaptivePredict(self._input,18,self._ctx)
+            la_ = self._interp.adaptivePredict(self._input,17,self._ctx)
             if la_ == 1:
-                self.state = 261
+                self.state = 255
                 self.sign()
 
 
-            self.state = 264
+            self.state = 258
             self.term()
-            self.state = 270
+            self.state = 264
             self._errHandler.sync(self)
             _la = self._input.LA(1)
             while _la==26 or _la==27:
-                self.state = 265
+                self.state = 259
                 self.addOp()
-                self.state = 266
+                self.state = 260
                 self.term()
-                self.state = 272
+                self.state = 266
                 self._errHandler.sync(self)
                 _la = self._input.LA(1)
 
@@ -2060,17 +2046,17 @@ class MinigopherGrammarParser ( Parser ):
         self._la = 0 # Token type
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 273
+            self.state = 267
             self.factor()
-            self.state = 279
+            self.state = 273
             self._errHandler.sync(self)
             _la = self._input.LA(1)
             while (((_la) & ~0x3f) == 0 and ((1 << _la) & 1879048192) != 0):
-                self.state = 274
+                self.state = 268
                 self.multOp()
-                self.state = 275
+                self.state = 269
                 self.factor()
-                self.state = 281
+                self.state = 275
                 self._errHandler.sync(self)
                 _la = self._input.LA(1)
 
@@ -2131,17 +2117,17 @@ class MinigopherGrammarParser ( Parser ):
         self._la = 0 # Token type
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 282
+            self.state = 276
             self.primary()
-            self.state = 288
+            self.state = 282
             self._errHandler.sync(self)
             _la = self._input.LA(1)
             while _la==31:
-                self.state = 283
+                self.state = 277
                 self.powerOp()
-                self.state = 284
+                self.state = 278
                 self.primary()
-                self.state = 290
+                self.state = 284
                 self._errHandler.sync(self)
                 _la = self._input.LA(1)
 
@@ -2197,26 +2183,26 @@ class MinigopherGrammarParser ( Parser ):
         localctx = MinigopherGrammarParser.PrimaryContext(self, self._ctx, self.state)
         self.enterRule(localctx, 54, self.RULE_primary)
         try:
-            self.state = 297
+            self.state = 291
             self._errHandler.sync(self)
             token = self._input.LA(1)
             if token in [42]:
                 self.enterOuterAlt(localctx, 1)
-                self.state = 291
+                self.state = 285
                 self.match(MinigopherGrammarParser.Identifier)
                 pass
             elif token in [26, 27, 40, 41]:
                 self.enterOuterAlt(localctx, 2)
-                self.state = 292
+                self.state = 286
                 self.numConst()
                 pass
             elif token in [11]:
                 self.enterOuterAlt(localctx, 3)
-                self.state = 293
+                self.state = 287
                 self.match(MinigopherGrammarParser.T__10)
-                self.state = 294
+                self.state = 288
                 self.arithmExpression()
-                self.state = 295
+                self.state = 289
                 self.match(MinigopherGrammarParser.T__11)
                 pass
             else:
@@ -2266,7 +2252,7 @@ class MinigopherGrammarParser ( Parser ):
         self._la = 0 # Token type
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 299
+            self.state = 293
             _la = self._input.LA(1)
             if not(_la==26 or _la==27):
                 self._errHandler.recoverInline(self)
@@ -2317,7 +2303,7 @@ class MinigopherGrammarParser ( Parser ):
         self._la = 0 # Token type
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 301
+            self.state = 295
             _la = self._input.LA(1)
             if not((((_la) & ~0x3f) == 0 and ((1 << _la) & 1879048192) != 0)):
                 self._errHandler.recoverInline(self)
@@ -2367,7 +2353,7 @@ class MinigopherGrammarParser ( Parser ):
         self.enterRule(localctx, 60, self.RULE_powerOp)
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 303
+            self.state = 297
             self.match(MinigopherGrammarParser.T__30)
         except RecognitionException as re:
             localctx.exception = re
@@ -2413,7 +2399,7 @@ class MinigopherGrammarParser ( Parser ):
         self._la = 0 # Token type
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 305
+            self.state = 299
             _la = self._input.LA(1)
             if not((((_la) & ~0x3f) == 0 and ((1 << _la) & 270582939648) != 0)):
                 self._errHandler.recoverInline(self)
@@ -2469,17 +2455,17 @@ class MinigopherGrammarParser ( Parser ):
         localctx = MinigopherGrammarParser.ConstContext(self, self._ctx, self.state)
         self.enterRule(localctx, 64, self.RULE_const)
         try:
-            self.state = 309
+            self.state = 303
             self._errHandler.sync(self)
             token = self._input.LA(1)
             if token in [26, 27, 40, 41]:
                 self.enterOuterAlt(localctx, 1)
-                self.state = 307
+                self.state = 301
                 self.numConst()
                 pass
             elif token in [38, 39]:
                 self.enterOuterAlt(localctx, 2)
-                self.state = 308
+                self.state = 302
                 self.boolConst()
                 pass
             else:
@@ -2534,18 +2520,18 @@ class MinigopherGrammarParser ( Parser ):
         localctx = MinigopherGrammarParser.NumConstContext(self, self._ctx, self.state)
         self.enterRule(localctx, 66, self.RULE_numConst)
         try:
-            self.state = 313
+            self.state = 307
             self._errHandler.sync(self)
-            la_ = self._interp.adaptivePredict(self._input,24,self._ctx)
+            la_ = self._interp.adaptivePredict(self._input,23,self._ctx)
             if la_ == 1:
                 self.enterOuterAlt(localctx, 1)
-                self.state = 311
+                self.state = 305
                 self.intNumber()
                 pass
 
             elif la_ == 2:
                 self.enterOuterAlt(localctx, 2)
-                self.state = 312
+                self.state = 306
                 self.floatNumber()
                 pass
 
@@ -2594,7 +2580,7 @@ class MinigopherGrammarParser ( Parser ):
         self._la = 0 # Token type
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 315
+            self.state = 309
             _la = self._input.LA(1)
             if not(_la==38 or _la==39):
                 self._errHandler.recoverInline(self)
@@ -2651,15 +2637,15 @@ class MinigopherGrammarParser ( Parser ):
         self._la = 0 # Token type
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 318
+            self.state = 312
             self._errHandler.sync(self)
             _la = self._input.LA(1)
             if _la==26 or _la==27:
-                self.state = 317
+                self.state = 311
                 self.sign()
 
 
-            self.state = 320
+            self.state = 314
             self.match(MinigopherGrammarParser.UnsignedInt)
         except RecognitionException as re:
             localctx.exception = re
@@ -2714,37 +2700,37 @@ class MinigopherGrammarParser ( Parser ):
         self._la = 0 # Token type
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 323
+            self.state = 317
             self._errHandler.sync(self)
             _la = self._input.LA(1)
             if _la==26 or _la==27:
-                self.state = 322
+                self.state = 316
                 self.sign()
 
 
-            self.state = 332
+            self.state = 326
             self._errHandler.sync(self)
-            la_ = self._interp.adaptivePredict(self._input,27,self._ctx)
+            la_ = self._interp.adaptivePredict(self._input,26,self._ctx)
             if la_ == 1:
-                self.state = 325
+                self.state = 319
                 self.match(MinigopherGrammarParser.T__39)
-                self.state = 326
+                self.state = 320
                 self.match(MinigopherGrammarParser.UnsignedInt)
                 pass
 
             elif la_ == 2:
-                self.state = 327
+                self.state = 321
                 self.match(MinigopherGrammarParser.UnsignedInt)
-                self.state = 328
+                self.state = 322
                 self.match(MinigopherGrammarParser.T__39)
                 pass
 
             elif la_ == 3:
-                self.state = 329
+                self.state = 323
                 self.match(MinigopherGrammarParser.UnsignedInt)
-                self.state = 330
+                self.state = 324
                 self.match(MinigopherGrammarParser.T__39)
-                self.state = 331
+                self.state = 325
                 self.match(MinigopherGrammarParser.UnsignedInt)
                 pass
 
@@ -2793,7 +2779,7 @@ class MinigopherGrammarParser ( Parser ):
         self._la = 0 # Token type
         try:
             self.enterOuterAlt(localctx, 1)
-            self.state = 334
+            self.state = 328
             _la = self._input.LA(1)
             if not(_la==26 or _la==27):
                 self._errHandler.recoverInline(self)

@@ -105,9 +105,11 @@ class VisitorInterpreter(MinigopherGrammarVisitor):
 
     def visitMainSection(self, ctx: MinigopherGrammarParser.MainSectionContext):
         self.push_scope()
-        for stmt in ctx.statement():
-            self.visit(stmt)
-        self.pop_scope()
+        for child in ctx.getChildren():
+            if isinstance(child, MinigopherGrammarParser.StatementContext):
+                self.visit(child)
+            elif isinstance(child, MinigopherGrammarParser.DeclarationContext):
+                self.visit(child)
         return None
 
     def visitStatement(self, ctx: MinigopherGrammarParser.StatementContext):
