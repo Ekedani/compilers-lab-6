@@ -182,7 +182,25 @@ class VisitorInterpreter(MinigopherGrammarVisitor):
         result = self.visit(ctx.boolPrimary(0))
         for i, relOp in enumerate(ctx.relOp()):
             result = self.evaluate_rel_op(result, relOp.getText(), self.visit(ctx.boolPrimary(i + 1)))
+        # print("[DEBUG] Expr Calc: ", result)  # TODO: Remove Debug
         return result
+
+    def visitBoolPrimary(self, ctx: MinigopherGrammarParser.BoolPrimaryContext):
+        if ctx.boolConst():
+            return self.visit(ctx.boolConst())
+
+        elif ctx.boolExpression():
+            return self.visit(ctx.boolExpression())
+
+        elif ctx.arithmExpression(0):
+            left = self.visit(ctx.arithmExpression(0))
+            if ctx.relOp() and ctx.arithmExpression(1):
+                operator = ctx.relOp().getText()
+                right = self.visit(ctx.arithmExpression(1))
+                return self.evaluate_rel_op(left, operator, right)
+            return left
+        else:
+            raise InterpreterException("Invalid boolean primary.")
 
     def visitArithmExpression(self, ctx: MinigopherGrammarParser.ArithmExpressionContext):
         result = self.visit(ctx.term(0))
